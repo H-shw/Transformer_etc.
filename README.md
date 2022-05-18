@@ -17,17 +17,19 @@
 
 
 
-* **2022.5.17**
+### **2022.5.17**
 
 获得材料，开始阅读 Attention is all you need(http://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf)。
 
 
 
-* **2022.5.18**
+### **2022.5.18**
 
 今天比较空闲，就多花了时间在这上面。
 
-早上大概把论文看完了，然后阅读了一篇质量不错的博客辅助理解(https://luweikxy.gitbook.io/machine-learning-notes/self-attention-and-transformer)。一个非常初期的报告点击这里。
+早上大概把论文看完了，然后阅读了一篇质量不错的博客辅助理解(https://luweikxy.gitbook.io/machine-learning-notes/self-attention-and-transformer)。
+
+一个非常初期的报告点击[这里](https://github.com/H-shw/Transformer_etc./blob/master/%E8%BF%9B%E5%BA%A6%E5%AD%98%E6%A1%A3/2022518/paper_reading(%E6%9C%AA%E8%B0%83%E6%95%B4%E6%A0%BC%E5%BC%8F).md)。
 
 下午开始看代码，着手复现 *Transformer* 。
 

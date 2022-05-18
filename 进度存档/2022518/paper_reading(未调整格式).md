@@ -6,7 +6,7 @@
 
 ### 1.abstract
 
-弃用：ecurrence 结构 ， convolution 结构
+弃用：Recurrence 结构 ， convolution 结构
 
 只使用：Attention Mechanism
 
@@ -30,9 +30,7 @@ Self-attention 被认为通过依赖一个序列不同的位置来计算 sequenc
 
 `encoder-decoder` 一般结构 ：encoder 对输入符号进行编码 ，decoder 一次输出 1 symbol， 输出会考虑先前输出的 symbol 。
 
-<img src="C:\Users\14163\AppData\Roaming\Typora\typora-user-images\image-20220517205017546.png" alt="image-20220517205017546" style="zoom:67%;" />
-
-
+<img src="https://github.com/H-shw/Transformer_etc./blob/master/%E8%BF%9B%E5%BA%A6%E5%AD%98%E6%A1%A3/2022518/pics/1.png" alt="png" style="zoom:50%;" />
 
 `encoder` : $N=6$ , Self - Attention +  1个简单的 fully connected feed-forward network ， 中间用残差网络连接(为了保证残差网络的适用性，要求 dimension always = 512)
 
@@ -70,7 +68,7 @@ $x_1$ 和 $x_2$ 互相不知道对方的信息，但因为在第一个步骤Self
 
 ![img](https://4143056590-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LpO5sn2FY1C9esHFJmo%2F-M1uVIrSPBnanwyeV0ps%2F-M1uVKsRIyR8d4qMnFoq%2Fself-attention-intuiation.jpg?generation=1583677019227629&alt=media)
 
-<img src="C:\Users\14163\AppData\Roaming\Typora\typora-user-images\image-20220517210216622.png" alt="image-20220517210216622" style="zoom:67%;" />
+<img src="https://github.com/H-shw/Transformer_etc./blob/master/%E8%BF%9B%E5%BA%A6%E5%AD%98%E6%A1%A3/2022518/pics/4.png" alt="image" style="zoom:67%;" />
 
 
 
@@ -92,7 +90,7 @@ $\frac{1}{\sqrt{d_k}}$ 的原因 ： 防止点积之后的结果太大，使得 
 
 共有3处使用了这种多头注意力的机制
 
-<img src="C:\Users\14163\AppData\Roaming\Typora\typora-user-images\image-20220518003436734.png" alt="image-20220518003436734" style="zoom:67%;" />
+<img src="https://github.com/H-shw/Transformer_etc./blob/master/%E8%BF%9B%E5%BA%A6%E5%AD%98%E6%A1%A3/2022518/pics/5.png" style="zoom:67%;" />
 
 * Query  来自前一层的 decoder , key value 来自本层。允许 decoder 与输入的 sequence 交互，模仿了经典的 encoder-decoder attention mechanism
 * encoder 中包含，使得 encoder 中的每个位置可以和上一层encoder的每个位置交互
@@ -116,7 +114,7 @@ In our model, we share ` the same weight matrix ` between the `two embedding lay
 
 In the embedding layers, we `multiply those weights` by $\sqrt{ d_{model} }$. (应该是前面除过了，现在进行还原)
 
-<img src="C:\Users\14163\AppData\Roaming\Typora\typora-user-images\image-20220518090903990.png" alt="image-20220518090903990" style="zoom:50%;" />
+<img src="https://github.com/H-shw/Transformer_etc./blob/master/%E8%BF%9B%E5%BA%A6%E5%AD%98%E6%A1%A3/2022518/pics/6.png" style="zoom:50%;" />
 
 ### 3.5 Positional Encoding
 
@@ -143,7 +141,7 @@ transformer 本质 ：a sequence to another
 
 3.在长距离的依赖中的路径长度(path length)，越短越容易学习到长距离的依赖关系。
 
-<img src="C:\Users\14163\AppData\Roaming\Typora\typora-user-images\image-20220518094639446.png" alt="image-20220518094639446" style="zoom:67%;" />
+<img src="https://github.com/H-shw/Transformer_etc./blob/master/%E8%BF%9B%E5%BA%A6%E5%AD%98%E6%A1%A3/2022518/pics/7.png" style="zoom:67%;" />
 
 对 Complexity 的理解：
 

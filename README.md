@@ -8,7 +8,7 @@
 * *Huggingface* 里的  *Transformers*
 * *fairseq* 的知识等。
 
-**有空的话欢迎 check 进度，并告知可以改进的方面(比如,代码风格，阅读论文的方法等)。**
+**欢迎 check 进度，欢迎告知可以改进的方面(比如,代码风格，阅读论文的方法等)。**
 
 
 
@@ -28,7 +28,7 @@
 
 早上大概把论文看完了，然后阅读了一篇质量不错的博客辅助，加深理解(https://luweikxy.gitbook.io/machine-learning-notes/self-attention-and-transformer)。
 
-一个非常初期的报告点击[这里](https://github.com/H-shw/Transformer_etc./blob/master/%E8%BF%9B%E5%BA%A6%E5%AD%98%E6%A1%A3/2022518/paper_reading(%E6%9C%AA%E8%B0%83%E6%95%B4%E6%A0%BC%E5%BC%8F).md)。*Github* 不支持 *LaTex* 数学符号的显示。。
+一个非常初期的报告点击[这里](https://github.com/H-shw/Transformer_etc./blob/master/%E8%BF%9B%E5%BA%A6%E5%AD%98%E6%A1%A3/2022518/paper_reading(%E6%9C%AA%E8%B0%83%E6%95%B4%E6%A0%BC%E5%BC%8F).md)。*Github* 不支持 *LaTex* 数学符号的显示。。如 $\frac{1}{n}$
 
 下午开始看代码，着手复现 *Transformer* 。
 
@@ -36,7 +36,15 @@
 
 明天课比较多，还打算学学因果推理 ( *causal inference* ) 的东西，周五组会。
 
+### **2022.5.19**
 
+大概把 *Transformer* 整个训练框架搭好了 (其实也就只写了`train.py` , `test.py` ，一点点`utils.py` 内容 和 *config* 文件，还是把之前工作中的搬来改改的。。具体任务还没确定，因此 *dataloader* 还没写)
+
+可能考虑找个简单的任务测试一下 *MyTransformer* 效果？
+
+另外还写了一份计算机网络的实验报告，虽然是验证性实验不过内容相当多。
+
+还看了一篇关于 因果推理 在 *VQA* 上的应用的论文 ，比较有意思的是，在计算构成前面准则的要件的时候，套用了 *Transformer* 的结构，把 *Self-Attention* 机制换成了它所需要的 *Causal Attention* 结构。
 
 
 

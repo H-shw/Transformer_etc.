@@ -7,6 +7,7 @@ import torch.nn.functional as F
 from torch.optim import lr_scheduler
 from model.transformer import Transformer
 from utils import save_model
+from model.transfomer_optimier import Transformer_Optimizer
 
 def train_start(train_iter,gpu_list,config_Path):
 
@@ -51,7 +52,7 @@ def train(train_iter,config):
     pos_len = config.getint('model','pos_len')
 
     model = Transformer(layer_num,N,d_k,d_model,d_v,d_ff,src_vocab_size,tgt_vocab_size,embedding_dim,pos_len)
-    optimizer = torch.optim.Adam(model.parameters(), lr=config.getint('model','lr') )
+    optimizer = Transformer_Optimizer(torch.optim.Adam(model.parameters(), lr=config.getint('model','lr'), betas=(0.9, 0.98), eps=1e-9), d_model=d_model)
 
     print("Training start....")
     best_acc = 0

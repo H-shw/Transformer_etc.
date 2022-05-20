@@ -44,7 +44,13 @@
 
 另外还写了一份计算机网络的实验报告，虽然是验证性实验不过内容相当多。
 
-还看了一篇关于 在 *VQA* 上的论文 ，比较有意思的是，在计算构成前面准则的要件的时候，套用了 *Transformer* 的结构，把 *Self-Attention* 机制换成了它所需要的 *Attention* 结构。
+还看了一篇关于  关于 *VQA* 的论文 ，在计算构成前面准则的要件的时候，套用了 *Transformer* 的结构，把 *Self-Attention* 机制换成了它所需要的 *Attention* 结构。
+
+### **2022.5.20**
+
+抽空增加了 *optimizer* 的 *transformer* 定制版，和 *reference* 实现的 *transformer* 对照过一遍，改了改一些细节。
+
+晚上组会开完看看有没有时间找一下任务。
 
 
 

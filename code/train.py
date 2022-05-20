@@ -7,7 +7,7 @@ import torch.nn.functional as F
 from torch.optim import lr_scheduler
 from model.transformer import Transformer
 from utils import save_model
-from model.transfomer_optimier import Transformer_Optimizer
+from model.transfomer_optimizer import Transformer_Optimizer
 
 def train_start(train_iter,gpu_list,config_Path):
 

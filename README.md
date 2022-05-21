@@ -54,6 +54,18 @@
 
 
 
+### **2022.5.21**
+
+找了一个[文本分类的任务](https://github.com/649453932/Chinese-Text-Classification-Pytorch)(因为目前找到的翻译任务感觉数据量很大)。目前已经调试运行成功(框架用人家的)，使用我自己的 *Transformer* 模型达到了和该任务作者使用的 *Transformer* 基本相似的效果(感觉这个作者的 *dropout* 很奇怪就没加)。
+
+可能存在的不足是这里只用上了 *encoder* , 毕竟文本分类不需要 *decoder* 翻译为人类可以理解的内容。
+
+另外，*code*文件夹下的 *transformer* 中相比之前的模型，增加了 共享权重 的机制。(分别共享了 *encoder* 和 *decoder* 的 embedding 权重，以及在 *encoder-decoder* 之后的全连接层的权重)
+
+目前暂时认为复现工作大概就这样，之后还会再改改，还不算非常完全。
+
+下一步看 [*BERT*](https://arxiv.org/pdf/1810.04805.pdf) 论文吧。
+
 
 
 

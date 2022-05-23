@@ -109,7 +109,7 @@
 
 加加班，一会把 BERT 模型部分看完。
 
-模型部分看完了，明天继续。
+[模型部分](https://github.com/H-shw/Transformer_etc./blob/master/%E8%BF%9B%E5%BA%A6%E5%AD%98%E6%A1%A3/2022523/Reading_BERT.md)看完了，论文的总结暂时先写到这里，明天继续。
 
 
 

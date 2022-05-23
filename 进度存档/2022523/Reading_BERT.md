@@ -49,7 +49,7 @@ BERT 的一个特性是一个联合的结构，可以用于多种任务。
 
 BERT 结构图
 
-<img src="C:\Users\14163\AppData\Roaming\Typora\typora-user-images\image-20220523215305389.png" alt="image-20220523215305389" style="zoom:67%;" />
+<img src="https://github.com/H-shw/Transformer_etc./blob/master/%E8%BF%9B%E5%BA%A6%E5%AD%98%E6%A1%A3/2022523/pics/1.png" style="zoom:67%;" />
 
 *[CLS] is a special symbol added in front of every input example, and [SEP] is a special separator token*
 

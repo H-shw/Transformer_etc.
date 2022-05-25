@@ -123,8 +123,10 @@
 
 ### **2022.5.25**
 
-BERT 论文的阅读基本完工了。链接
+BERT 论文的阅读基本完工了。[简单的总结链接](https://github.com/H-shw/Transformer_etc./blob/master/%E8%BF%9B%E5%BA%A6%E5%AD%98%E6%A1%A3/2022525/Reading_BERT.md)
 
 要是有空的话感觉最多半天就能看完了。。
 
-关于 huggingface 的 [transformers](https://github.com/huggingface/transformers) 以及 [fairseq](https://github.com/facebookresearch/fairseq) 打算先放放，最近先复习期末，刷刷leetcode , 补一补人工智能可能会问的问题。
+关于 huggingface 的 [transformers](https://github.com/huggingface/transformers) 以及 [fairseq](https://github.com/facebookresearch/fairseq) 打算先放放，链接先放这里。
+
+最近先复习期末，刷刷leetcode , 补一补人工智能可能会问的问题。

@@ -150,7 +150,7 @@ BERT 中将两个过程合二为一了。
 
  *Comparison of BERT, ELMo ,and OpenAI GPT*
 
-![image-20220525201341783](C:\Users\14163\AppData\Roaming\Typora\typora-user-images\image-20220525201341783.png)
+<img src="https://github.com/H-shw/Transformer_etc./blob/master/%E8%BF%9B%E5%BA%A6%E5%AD%98%E6%A1%A3/2022525/pics/2.png" style="zoom:67%;" />
 
 BERT , OPENAI GPT 是 Fine-tune 的
 

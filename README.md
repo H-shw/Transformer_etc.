@@ -130,3 +130,7 @@ BERT 论文的阅读基本完工了。[简单的总结链接](https://github.com
 关于 huggingface 的 [transformers](https://github.com/huggingface/transformers) 以及 [fairseq](https://github.com/facebookresearch/fairseq) 打算先放放，链接先放这里。
 
 最近先复习期末，刷刷leetcode , 补一补人工智能可能会问的问题。
+
+### **2022.5.26**
+
+抱歉，必须要准备期末考试了。今天起到5月29就先不更了。

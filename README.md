@@ -147,3 +147,6 @@ BERT 论文的阅读基本完工了。[简单的总结链接](https://github.com
 
 已上传。之前看论文的时候不大理解的前面准则，后门准则已经更新到 [此处](https://github.com/H-shw/Transformer_etc./blob/master/notes/casual%20inference/%E5%9B%A0%E6%9E%9C%E6%8E%A8%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md) 。下次组会应该要汇报这个了。打了这么多公式感觉好累。
 
+### **2022.6.1**
+
+儿童节快乐！今天看了中介，反事实的一部分，更新到 [此处](https://github.com/H-shw/Transformer_etc./blob/master/notes/casual%20inference/%E5%9B%A0%E6%9E%9C%E6%8E%A8%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md) 。

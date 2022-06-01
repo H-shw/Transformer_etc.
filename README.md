@@ -150,3 +150,5 @@ BERT 论文的阅读基本完工了。[简单的总结链接](https://github.com
 ### **2022.6.1**
 
 儿童节快乐！今天看了中介，反事实的一部分，更新到 [此处](https://github.com/H-shw/Transformer_etc./blob/master/notes/casual%20inference/%E5%9B%A0%E6%9E%9C%E6%8E%A8%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md) 。
+
+看了一下之前上传的 `markdown` ，好像有的公式显示不出来，我用 *Typora* 写的，看来是 md 方言的问题。

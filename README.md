@@ -156,3 +156,7 @@ BERT 论文的阅读基本完工了。[简单的总结链接](https://github.com
 ### **2022.6.2**
 
 因果部分差不多整理好了，对应的就是 *CAUSAL INFERENCE IN STATISTICS A PRIMER* 的内容了 [pdf版下载地址](https://zh.usa1lib.org/book/2664651/adcbf6) 的内容，但感觉了解的还是偏浅。
+
+### **2022.6.4**
+
+更新了一下昨天复习的一些AI基础知识内容。

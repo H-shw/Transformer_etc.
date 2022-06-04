@@ -35,7 +35,9 @@ https://zhuanlan.zhihu.com/p/38163970
 
 解码器的作用是把隐藏层的隐变量h还原到初始维度,最好的状态就是解码器的输出能够完美地或者近似恢复出原来的输入,即 $x^R≈x$ .
 
-<img src="C:\Users\14163\AppData\Roaming\Typora\typora-user-images\image-20220603091957051.png" alt="image-20220603091957051" style="zoom:67%;" />
+![1.1.png](https://github.com/H-shw/Transformer_etc./blob/master/notes/AI%20note/pics/1.1.png?raw=true)
+
+https://github.com/H-shw/Transformer_etc./blob/master/notes/AI%20note/pics/1.1.png
 
 (1)从输入层->隐藏层的原始数据X的编码过程:
 $h= g_{\theta_1}(x)=σ(W1x + b1)$
@@ -196,7 +198,7 @@ ROC曲线下方的面积（英语：Area under the Curve of ROC (AUC ROC)），�
 - AUC = 0.5，跟随机猜测一样（例：丢铜板），模型没有预测价值。
 - AUC < 0.5，比随机猜测还差；但只要总是反预测而行，就优于随机猜测。
 
-![image-20220603161925009](C:\Users\14163\AppData\Roaming\Typora\typora-user-images\image-20220603161925009.png)
+![1.2.png](https://github.com/H-shw/Transformer_etc./blob/master/notes/AI%20note/pics/1.2.png?raw=true)
 
 ##### 精度，召回率，F1 值
 

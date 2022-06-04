@@ -159,4 +159,5 @@ BERT 论文的阅读基本完工了。[简单的总结链接](https://github.com
 
 ### **2022.6.4**
 
-更新了一下昨天复习的一些AI基础知识内容。
+更新了一下昨天复习的一些AI基础知识内容。[链接](https://github.com/H-shw/Transformer_etc./blob/master/notes/AI%20note/AI%E5%86%85%E5%AE%B9%E5%A4%8D%E4%B9%A0.md)
+

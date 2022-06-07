@@ -168,3 +168,7 @@ BERT 论文的阅读基本完工了。[简单的总结链接](https://github.com
 ### **2022.6.6**
 
 集成学习的看了一部分。[链接](https://github.com/H-shw/Transformer_etc./blob/master/notes/AI%20note/AI%E5%86%85%E5%AE%B9%E5%A4%8D%E4%B9%A0.md)
+
+### **2022.6.7**
+
+今天主要在做期末大作业，打算明天复习深度学习部分。

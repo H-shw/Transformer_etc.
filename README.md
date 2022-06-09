@@ -176,3 +176,7 @@ BERT 论文的阅读基本完工了。[简单的总结链接](https://github.com
 ### **2022.6.8**
 
 简单复习了HMM,神经元模型,CNN,RNN,LSTM,GRU。[链接](https://github.com/H-shw/Transformer_etc./blob/master/notes/AI%20note/AI%E5%86%85%E5%AE%B9%E5%A4%8D%E4%B9%A0.md)
+
+### **2022.6.9**
+
+今天做数据库的大作业，主要是做一个DBMS的应用场景。

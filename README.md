@@ -180,3 +180,11 @@ BERT 论文的阅读基本完工了。[简单的总结链接](https://github.com
 ### **2022.6.9**
 
 今天做数据库的大作业，主要是做一个DBMS的应用场景。
+
+### **2022.6.10**
+
+主要还是在做数据库大作业。但是组会前准备，复习因果推理的时候修正了之前笔记的一些错误。 [此处](https://github.com/H-shw/Transformer_etc./blob/master/notes/casual%20inference/%E5%9B%A0%E6%9E%9C%E6%8E%A8%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
+
+另外再分享一本书。[Causality- Models, Reasoning, and Inference](https://zh.sg1lib.club/book/2780725/2ec8f1)
+
+然后还了解到现在因果推理往往是一种顶层设计，用来组合和应用由深度学习学习出的特征。另外一个常见的使用方法是用反事实的方法生成额外的数据做数据增强。
